@@ -1,0 +1,400 @@
+2046 -- Data Analysis Introduction
+-------------------------------------------------
+1. What is Data?
+Data means raw facts, values, observations, or information collected from different source.
+
+Example
+-----------
+Student Name: Amogh
+Age: 25
+marks: 85
+City:Pune
+------------------------------------------------------------------------------
+or Company may have:
+Product		Sales
+Laptop		50
+Mobile		120
+Tablet		75
+----------------------------------------------------------------------------
+2. What is Data Analysis?
+----------------
+Data Analysis is the process of examine, cleaning, transform, and interpreting data to find useful information, patterns and insight that help in decision-making.
+---------------------------------------------------------------------------------------------------
+In Simple World:
+Data Analysis means converting raw data into useful information.
+------------------------------------------------------------------------------------------------
+
+Raw Data
+   |
+Collect Data
+   |
+Clean Data
+   |
+Organize Data
+   |
+Pattern
+   |
+Generate Insight
+   |
+Make Decision
+-------------------------------------------------------------------------------
+
+3. Simple real-life Example
+
+suppose a shop has this sales data:
+--------------------------------------------------
+Produce		Sales
+Laptop		20
+Mobile		80
+Tablet		30
+Laptop		25
+Mobile		90
+Tablet		35
+
+---
+Looking at the raw data doesn't immediately tell us much.
+
+After analysis we find some information 
+
+Mobile - 170
+laptop - 45
+Tablet -65
+------------------------------------------------------
+Mobile ---> Highest Sales
+Tablet ---> Medium sales
+Laptop ---> Lowest Sales
+------------------------------------------------------------------------------------------------
+Now the shop owner can make a decision
+
+"Mobile Phones are selling more, So i should maintain more mobile inventory."
+
+-----------------------------------------------------------------------------------------------------
+4. Why Do We need Data Analysis?
+-------------------------------------------------------
+
+Modern Organization generate huge amounts of data.
+
+
+For Example:
+
+> Customer Data
+> Sales Data
+> Employee Data
+> Financial Data
+> Website Data
+> Social Media Data
+> Product Data
+> Transaction Data
+
+Raw data alone is not very useful.
+
+We need analysis to user stand what the data is telling us.
+-----------------------------------------------------------------------
+
+Main reasons:
+
+1. To understand data
+------------------------------------
+Data analysis help us to understand large datasets.
+
+
+100,000 customer records
+
+Instead of manually looking every records, we can analyze
+
+Total Customer
+Average Age
+Most common city
+Average Purchase
+Top customers
+----------------------------------------------------------------------------------------------
+
+2. To find Pattern
+
+Analysis helps to identify patterns
+
+Example
+
+Monday ---   20,000
+Tuesday ---  22,000
+Wednesday -- 21,000
+Thursday --- 35,000
+Friday ----- 50,000
+
+We can identify 
+
+Sales increate towards the weekend.
+---------------------------------------------------------------------------------
+
+3. To Find Trends
+
+A trends shows how something changes over time.
+
+Example
+
+2023 ---> 10 Lakh
+2024 ---> 15 Lakh
+2025 ---> 22 lakh
+2026 ---> 30 lakh
+
+We can identify an increasing sales trend.
+-----------------------------------------------------------------------------------------------------
+
+4. To Find Problems
+---------------------------
+
+Data analysis can identify unusual or problematic data.
+
+Example
+-------------------
+Normal Transaction - 500-5,000
+
+Transaction
+5,00,000
+------------------------------------------------------------------------
+This unusual value may require investigation.
+---------------------------------------------------------------------------------------------------
+5. To Make Better Decisions
+----------------------------------------------------
+This is one of the biggest reason for Data Analysis
+-----------------------------------------------------------------------
+Without Data:
+	
+	"I think customers prefers product A"
+
+With Data:
+	"70% of customers purchased Product A"
+
+The second statement is supported by an evidence.
+---------------------------------------------------------------------------------
+5. Data analysis in Real Life
+---------------------------
+
+E-Commerce
+
+Companies analyze:
+
+> Most Purchased Products
+> Customer Spending
+> Sales by city
+> Return rates
+> Customer behavior
+
+They can then decide:
+Which products should we promote?
+----------------------------------------------------
+
+Banking:
+
+Bank analze:
+> Transaction
+> Customer spending
+> Loan history
+> Credit behavior
+> Fraud Pattern
+
+----------------------------------------------------------------------------------------
+
+They can identify:
+
+Potentially suspicious transaction.
+-----------------------------------------------------------------------------------------------------
+
+Healthcare
+-------------------
+Hospitals analyze:
+
+> Patient records
+> Disease
+> Treatment outcomes
+> Medicine usage
+> Patient demographics
+--------------------------------------------------------------------------
+They can identify:
+
+> Which disease are increasing in a particular area.
+
+------------------------------------------------------------------------------------------------
+
+Education
+--------------
+School/College analze:
+
+> Student marks
+> Attendance
+> Performance
+> Subject-wise results
+--------------------------------
+Example:
+
+Math Average - 82%
+Physics Average - 61%
+
+This institute can identify:
+Students need more support in Physics.
+-------------------------------------------------------------------------------------
+
+6. Data analysis VS Data
+-------------------------------------------------
+
+Data 
+-------
+85
+65
+82
+91
+45
+
+
+This is raw information
+-----------------------------------------
+
+Data Analysis
+----------------------
+Average - 73.6
+Highest - 91
+Lowest - 45
+----------------------------------------------------
+now we have meaningful information
+----------------------------------------------------------------------------------------------------
+
+7. Data Analysis VS Data Analytics
+-----------------------------------------------------------
+
+These Terms are related but not exactly the same.
+--------------------------------------------------------------------------
+Data Analysis:
+
+Focuses mainly on
+	Understanding and examining data to generate insights.
+-------------------------------------------------------------
+Data Analytics
+------------------------
+is broader and can includes:
+
+> Data Collection
+> Data preparation
+> Data analysis
+> Visualization
+> Statistical Analysis
+> Predictive Analysis
+> Business Decision-Making
+-------------------------------------------------
+
+Data Analysis = Analyze the data
+
+Data Analytics = Complete process of using data to generate insight and support decision.
+----------------------------------------------------------------------------------------------------
+
+8. Types of Data Analysis
+-------------------------------------------------------
+There are four commonly categories:
+
+1. Descriptive Analysis
+	What happened?
+
+	>> Sales where 50 lakes in 2025
+
+2. Diagnostic Analysis 
+	Why did it happen?
+
+	Sales decreased because product availability was low
+
+3. Predictive Analysis
+	What might happen?
+
+	Sales may increase by 15% next month
+
+
+4. Prescriptive  Analysis
+What should we do?
+
+	Increase inventory and run a promotional campaign.
+
+-------------------------------------------------------------------------------------------
+
+9. Complete Data Analysis Workflow
+-----------------------------------------------
+		Data
+		  |
+	Data collection
+		  |
+	Data Understanding
+		  |
+	Data Cleaning
+		  |
+	Data Transformation
+		  |
+	Exploratory Analysis
+		  |
+	Statistical Analysis
+		  |
+	Data Visualization
+		  |
+	Find Insights
+		  |
+	Business Decision
+--------------------------------------------------------------------------------------------
+Example
+
+Customer Data
+	|
+Clean Missing Values
+	|
+Remove duplicates
+	|
+Calculate average spending
+	|
+Find top customer
+	|
+Create charts
+	|
+Identify customer trends
+	|
+Business decides what to sell/promote
+-------------------------------------------------------------------------------------
+10. Why Start Data Analysis
+-------------------------------------------
+
+NumPy is a tool
+Pandas is a tool
+SQL is a tool
+Excel is a tool
+PowerBI is a tool
+-------------------------------------------------------------------
+Excel - Basic Analysis
+SQL   - Database analysis
+NumPy - Numerical operation
+pandas - Data manipulation
+matplotlib - Visualization
+Seaborn --- statistical visualization
+powerBi -- Business dashboards
+-------------------------------------------------------------------------------------------
+Note:
+
+Data is everywhere, but raw data does not directly provide useful information. Data Analysis is the process of converting raw data into meaning information, identifying patterns and trends, and generating insights that helps us make better decisions.
+
+-----------------------------------------------------------------------------------------------------------
+
+NumPy
+Pandas
+Visualization
+SQL
+---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
