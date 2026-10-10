@@ -20,7 +20,7 @@ Tablet		75
 ----------------
 Data Analysis is the process of examine, cleaning, transform, and interpreting data to find useful information, patterns and insight that help in decision-making.
 ---------------------------------------------------------------------------------------------------
-In Simple World:
+In Simple Word:
 Data Analysis means converting raw data into useful information.
 ------------------------------------------------------------------------------------------------
 
@@ -381,6 +381,115 @@ Pandas
 Visualization
 SQL
 ---------------------------------------
+
+Module 1: Introduction to NumPy
+--------------------------------------------------------
+1. What is NumPy?
+----------------------------------------------------
+NumPy = Numerical Python
+---------------------------------------
+NumPy is a Python Library used for:
+
+* Numerical calculations
+* Array operations
+* Mathematical Operations
+* Statistical calculations
+* Matrix Operations
+* Scientific computing
+* Data Analysis
+* Machine Learning
+-------------------------------------------------------------------------------------
+The main object NumPy is NumPy array (ndarray)
+-----------------------------------------------------------------------------------------------------
+Installation of NumPy
+---------------------------------------------------
+open CMD:  pip install numpy
+-----------------------------
+
+#### Why Do we need NumPy?
+-------------------------------------
+Python Provides Lists:
+
+numbers = [10,20,30,40]
+
+But NumPy provides highly optimized arrays.
+
+import numpy as np
+numbers = np.array([10,20,30,40])
+
+
+------------------------------------------------------
+
+NumPy arrays are designed for numerical operations and generally provide much faster, more memory efficient operations than ordinary python lists for large numerical dataset.
+
+---------------------------------------------------------------------------------------------------
+
+DESCRIPTION
+    NumPy
+    =====
+
+    Provides
+      1. An array object of arbitrary homogeneous items
+      2. Fast mathematical operations over arrays
+      3. Linear Algebra, Fourier Transforms, Random Number Generation
+
+
+3. NumPy vs Python Lists
+--------------------------------------------------------
+Python List:
+
+numbers = [10,20,30,40]
+print(numbers)
+
+output
+[10,20,30,40]
+
+-------------------------------
+NumPy Array
+
+
+arrayNumbers = np.array([10,20,30,40])
+print(arrayNumbers)
+
+Output
+------
+[10 20 30 40]
+------------------------------
+Import Difference
+-------------------
+a = [1,2,3]
+b = [4,5,6]
+print(a+b)
+
+# here + joins the lists
+
+[1, 2, 3, 4, 5, 6]
+------------------------------------------------
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print(a+b)
+
+## Here NumPy performs element-wise addition
+
+[5 7 9]
+-----------------------------------------------------------------------
+
+4. NumPy Installation
+
+pip install numpy
+-------------------------------------------------
+
+
+Then 
+import numpy as np
+-------------------------------------------------------------------------------
+
+
+5. Check NumPy Version
+---------------------------
+
+
+
 
 
 
